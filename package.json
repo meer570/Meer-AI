@@ -1,0 +1,20 @@
+
+{
+  "name": "meer-ai-agent",
+  "version": "1.0.0",
+  "description": "Meer AI agent for AI tasks and YouTube content workflows",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  }
+}
